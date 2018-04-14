@@ -25,9 +25,10 @@ $ npm start
 # generate static project
 $ npm run generate
 ```
-## What you could learn while I was making this app
-
-Create.vue
+## What I learned while I was making this app
+```
+Index.vue
+```
 ```
 <template>
   <div class="box" v-if="todos">
