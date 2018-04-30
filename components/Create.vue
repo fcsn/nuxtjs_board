@@ -50,6 +50,7 @@ export default {
             console.log(this.$store)
             this.$store.dispatch('store/addTodo', this.todo)
             this.todo = {}
+            this.$router.push('/')
             
             // if( this.todo.title === undefined ) {
             //     return console.log('ㄴㄴ')

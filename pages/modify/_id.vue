@@ -1,7 +1,8 @@
 <template>
-<div>
-    <Modify/>
-</div>
+    <div>
+        <!-- {{ $route.params.id }} -->
+        <Modify/>
+    </div>
 </template>
 
 <script>

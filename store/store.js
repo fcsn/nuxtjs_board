@@ -41,7 +41,7 @@ export const getters = {
     },
     getTodo (state) {
       return state.todos.filter((todo) => {
-        return todo.id === state.todoId
+        return todo.id === state.todoId  //todoId를 params id로 바꾸면?
       })[0]
     }
 }

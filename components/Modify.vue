@@ -1,6 +1,7 @@
 <template>
     <article>
         <Nav />
+        {{ $route.params.id }}
         {{ todo }}
         <form>
             <!-- <p>{{dd}}</p> -->

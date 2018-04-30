@@ -6,11 +6,12 @@
               :title="todo.title">
     <div class="media-content">
       <div class="content">
-          <p>
+          <p class="children">
             <strong>{{ todo.title }}</strong>
           </p>
-          <p>
-            <nuxt-link :to="'/modify/' + (index + 1)">
+          <p class="children">
+            <!-- <nuxt-link :to="'/modify/' + (index + 1)"> -->
+            <nuxt-link :to="`/modify/${todo.id}`">
                 {{ todo.contents }}
            </nuxt-link>
           </p>
@@ -60,4 +61,17 @@ export default {
   }
 }
 </script>
+
+<style scoped>
+.media {
+  display: flex;
+} 
+.media-content {
+  height: 200px;
+  width: 500px;
+   margin: 80px;
+   background-color: #8cacea;
+}
+</style>
+
 

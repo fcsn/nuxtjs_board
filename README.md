@@ -45,5 +45,5 @@ export default {
           return this.$store.getters['store/getTodos']
     }
 ```
-For using 'v-for' using method from computed, you should use 'v-if' or 'v-show' in its parent element for showing this computed method. It's because 
+For using 'v-for' using 'todos()'method from computed, you should use 'v-if' or 'v-show' in its parent element for showing this computed method. It's because 
 
